@@ -182,7 +182,7 @@ results_path = "results_CLIP.txt"
 model_path = "model_CLIP.pth"
 data_path = "data_CLIP.pth"
 
-convnext_data_path = "data_convnext.pth"
+convnext_data_path = "path/to/convnext/data/pth"
 
 class_names = sorted(os.listdir(train_path))
 class_names = ["An image of " + x for x in class_names]
