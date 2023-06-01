@@ -3,9 +3,9 @@
 In order to run the code, several usual packages have to be installed (such as pytorch, transformers, etc.), as well as the clip package (for instance using ```! pip install git+https://github.com/openai/CLIP.git```).
 
 Three folders are necessary:
-- One containing 48 folders corresponding the the 48 classes (for instance "train")
-- One containing a folder, which contains all the unlabelled images (for instance, "unlabelled/unlabelled/...")
-- One containing all test images (for instance "test")
+- One containing 48 folders corresponding the the 48 classes (for instance "train" which contains all the class folders);
+- One containing a folder, which contains all the unlabelled images (for instance, "unlabelled/unlabelled" contains all the unlabelled images);
+- One containing all test images (for instance "test" contains all the test images).
 
 The paths to these folders have to be filled in the file paths.py.
 
