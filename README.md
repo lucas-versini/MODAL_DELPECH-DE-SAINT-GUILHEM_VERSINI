@@ -1,6 +1,6 @@
 # MODAL_SAINT-GUILHEM_VERSINI
 
-In order to run the code, several usual packages have to be installed (such as pytorch, transformers, etc.), as well as the clip package (for instance using '! pip install git+https://github.com/openai/CLIP.git').
+In order to run the code, several usual packages have to be installed (such as pytorch, transformers, etc.), as well as the clip package (for instance using ```! pip install git+https://github.com/openai/CLIP.git```).
 
 Three folders are necessary:
 - One containing 48 folders corresponding the the 48 classes (for instance "train")
