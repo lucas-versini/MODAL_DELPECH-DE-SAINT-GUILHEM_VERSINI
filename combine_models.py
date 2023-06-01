@@ -105,7 +105,7 @@ transform = transforms.Compose([
 num_classes = 48
 batch_size = 10
 
-convnext_path = "../convnext_new/model_convnext.pth"
+convnext_path = "path/to/convnext_model.pth"
 
 
 class_names = sorted(os.listdir(train_path))
